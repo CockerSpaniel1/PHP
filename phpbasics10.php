@@ -9,16 +9,21 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
         <title></title>
     </head>
     <body>
+        <!--phpbasics10.php-->
         <?php
-        $score=65;
-        $v=($score>=60)?"??�格":"不�?�格";
+        $x=165;
+        $v=($x>=10 || $x<=100)?"條件成立":"條件不成立";
         echo $v;
-        echo("<p></p>");  
-        $x=65;
-        $v2=($x>=10 && $x<=100)?"範�?�內":"範�?��??";
-        echo $v2;
+        
+        $x=165;
+        $v=!($x>=10 || $x<=100)?"條件成立":"條件不成立";
+        echo $v;
+        
+          $x=3;
+//          echo $
+        
+        
+        
         ?>
-        
-        
     </body>
 </html>

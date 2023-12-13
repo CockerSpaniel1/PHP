@@ -10,15 +10,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
     </head>
     <body>
         <?php
-        $score=65;
-        $v=($score>=60)?"??äÊ†º":"‰∏çÂ?äÊ†º";
-        echo $v;
-        echo("<p></p>");  
-        $x=65;
-        $v2=($x>=10 && $x<=100)?"ÁØÑÂ?çÂÖß":"ÁØÑÂ?çÂ??";
-        echo $v2;
+        for ($i=1; $i<=10; $i++){
+            echo $i."<br>";
+        }
         ?>
-        
-        
     </body>
 </html>

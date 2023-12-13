@@ -9,16 +9,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
         <title></title>
     </head>
     <body>
-        <?php
-        $score=65;
-        $v=($score>=60)?"??äÊ†º":"‰∏çÂ?äÊ†º";
-        echo $v;
-        echo("<p></p>");  
-        $x=65;
-        $v2=($x>=10 && $x<=100)?"ÁØÑÂ?çÂÖß":"ÁØÑÂ?çÂ??";
-        echo $v2;
+      <?php
+        //ÁµÑÂêàÂºè
+        $k=$_POST['t1'];
+        $k = (int)$k;
+        if (($k%2)==0)
+        { 
+            echo "ÂÅ∂Êï∏";
+        }
+        else
+        { 
+            echo "Â•áÊï∏";
+        }
         ?>
-        
         
     </body>
 </html>
