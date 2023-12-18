@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form id="f1" name="f1" method="post" action="phpformbasic3.php">
+        <table border="2" width="500px">
+            <tr>
+                <td colspan="2" bgcolor="#99CCFF">客戶訊息</td>
+            </tr>
+            <tr>
+                <td>姓名</td>
+                <td><input type="text" id="t1" name="t1" size="30"/></td>
+            </tr>
+            <tr>
+                <td>電子郵件</td>
+                <td><input type="text" id="t2" name="t2" size="30"></td>
+            </tr>
+
+            <tr>
+                <td>年齡</td>
+                <td>
+                    <input type="radio" name="ua" value="未滿20">未滿20
+                    <input type="radio" name="ua" value="20-29">20-29
+                    <input type="radio" name="ua" value="30-39">30-39
+                    <input type="radio" name="ua" value="40-49">40-49
+                    <input type="radio" name="ua" value="50以上">50以上
+                </td>
+            </tr>
+            <tr>
+                <td>廠牌手機</td>
+                <td>
+                    <input type="checkbox" name="up[]" value="Htc"/>Htc
+                    <input type="checkbox" name="up[]" value="Apple"/>Apple
+                    <input type="checkbox" name="up[]" value="ASUS"/>ASUS
+                    <input type="checkbox" name="up[]" value="Acer"/>Acer
+                </td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>

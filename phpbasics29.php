@@ -10,19 +10,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
     </head>
     <body>
         <?php
-        $a=array("台北","東京","北京");
-        list($x, $y, $z) = $a;
-        echo $x."<br>";
-        echo $y."<br>";
-        echo $z."<br>";
-        
-        
-        $a=array("台灣"=>"台北", "日本"=>"東京","中國"=>"北京");
-        foreach($a as $key=>$value){
-            echo "鍵:".$key.",值:".$value;}
-        
-
-
+        require_once "phpcom2.php";
+        require_once "phpcom3.php";
+        $a=array(12,34,99,3,22);
+        $max=maxfun($a);
+        $min=minfun($a);
+            
+       
+        echo "最大值".$max."<br>";
+        echo "最小值".$min."<br>";
 
         ?>
     </body>
