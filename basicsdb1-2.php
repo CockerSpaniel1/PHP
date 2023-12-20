@@ -11,7 +11,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
     </head>
     <body>
         <?php
-            header("db2.php");
             $mysqli= new mysqli("localhost","root","","theorydb1");
             echo "連上資料庫管理系統<br>";
             $mysqli->query("SET NAMES 'UTF8'");
@@ -22,9 +21,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
             echo "<br>";
             $rows=mysqli_num_rows($result);
             $fields=mysqli_num_fields($result);
-            
-            echo "<script> location.href='basicsdb1-2.php'; </script>";
-            
             
             echo "總紀錄數:".$rows."&nbsp;總欄位數".$fields."<br>";
             echo "<table border='5px' width='600px'> <tr><td colspan='5' bgcolor='lightblue'>個人基本資料</td></tr><tr>";
@@ -50,6 +46,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
             
             
         ?>
-        
+       
+
     </body>
 </html>
