@@ -10,7 +10,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <form id="f1" name="f1" method="post" action="phpformbasic3.php">
+        <form id="f1" name="f1" method="post" action="phpbasics30.php">
         <table border="2" width="500px">
             <tr>
                 <td colspan="2" bgcolor="#99CCFF">客戶訊息</td>
@@ -43,6 +43,34 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                     <input type="checkbox" name="up[]" value="Acer"/>Acer
                 </td>
             </tr>
+            <tr>
+                <td>使用手機最常<br />碰到的問題</td>
+                <td>
+                    <textarea id="tal" name="tal" cols="50" rows="4" ></textarea>
+                </td>
+            </tr>
+             <tr>=
+                <td>您使用過那些電信業者的門號(複選)</td>
+                <td>
+                    <select id="sel" name="sel[]" size="3" multiple="multiple" style="width:150px">
+                        <option value="中華電信">中華電信</option>
+                        <option value="台灣大哥大">台灣大哥大</option>
+                        <option value="遠傳">遠傳</option>
+                        <option value="亞太電信">亞太電信</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" id="s1" name="s1" value="傳送" /> 
+                </td>
+                <td align="right">
+                    <input type="reset" id="r1" name="r1" value="清除" /> 
+                </td>
+            </tr>
+             
+             
+            
         </table>
     </form>
     </body>
